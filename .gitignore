@@ -6,3 +6,8 @@ bower_components
 # everything inside these folders
 assets/pics/others
 video
+
+.DS_store
+assets/.DS_Store
+assets/pics/.DS_Store
+assets/pics/gallery/.DS_Store
