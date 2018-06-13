@@ -1,2 +1,12 @@
 node_modules
 bower_components
+
+.idea/workspace.xml
+
+# everything inside these folders
+assets/pics/gallery
+assets/pics/others
+assets/logos
+
+img
+video
