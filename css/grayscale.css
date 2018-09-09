@@ -38,9 +38,10 @@ p {
 .video-caption {
     font-family: 'Raleway', sans-serif;
     margin: 0 0 25px;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.5;
     padding-top: 1vh;
+    color: darkgray;
 }
 
 @media (min-width: 768px) {
