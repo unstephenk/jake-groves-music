@@ -35,11 +35,28 @@ p {
     line-height: 1.5;
 }
 
+.video-caption {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 25px;
+    font-size: 10px;
+    line-height: 1.5;
+    padding-top: 1vh;
+}
+
 @media (min-width: 768px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
+    }
+
+    .video-caption {
+        padding-top: 1vh;
+        font-family: 'Raleway', sans-serif;
+        margin: 0 0 25px;
+        font-size: 16px;
+        line-height: 1.5;
+        color: darkgray;
     }
 }
 
@@ -238,58 +255,6 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {
-
-0
-{
-    -webkit-transform: scale(1)
-;
-    transform: scale(1)
-;
-}
-50
-%
-{
-    -webkit-transform: scale(1.2)
-;
-    transform: scale(1.2)
-;
-}
-100
-%
-{
-    -webkit-transform: scale(1)
-;
-    transform: scale(1)
-;
-}
-}
-@-moz-keyframes pulse {
-
-0
-{
-    -moz-transform: scale(1)
-;
-    transform: scale(1)
-;
-}
-50
-%
-{
-    -moz-transform: scale(1.2)
-;
-    transform: scale(1.2)
-;
-}
-100
-%
-{
-    -moz-transform: scale(1)
-;
-    transform: scale(1)
-;
-}
-}
 .content-section {
     padding-top: 100px;
 }
@@ -311,6 +276,18 @@ a:focus {
     padding: 50px 0;
     color: white;
     background: url(../img/mountain.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.press-section {
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    background: url(../img/grey-background.jpg) no-repeat center center scroll;
+    background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -664,6 +641,4 @@ body {
         min-width: 0;
         font-size: 14px;
     }
-}
-
 }
